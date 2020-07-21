@@ -1,5 +1,5 @@
 # vault-demo
-In cli:
+In cli: (you can also use export command in terminal for creating environment variable)
 
 vault server -dev
 
