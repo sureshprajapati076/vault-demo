@@ -21,4 +21,6 @@ export VAULT_DEV_ROOT_TOKEN_ID=s.y3ROIoylGZjeAOAURIGA6H2H
 
 vault kv put secret/vault-demo spring.datasource.username=root spring.datasource.password=root1234!
 
+CLEAR console history
 
+history -c && history -w
