@@ -11,6 +11,8 @@ vault server -dev -dev-listen-address="0.0.0.0:8200"
 
 export VAULT_ADDR='http://127.0.0.1:8200'
 
+if in aws: use export VAULT_ADDR=http://54.209.151.53:8200
+
 
 
 Following is optional
